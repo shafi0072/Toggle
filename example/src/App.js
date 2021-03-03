@@ -1,10 +1,12 @@
-import React from 'react'
-
-import { ExampleComponent } from 'toggle'
-import 'toggle/dist/index.css'
+import React from 'react';
+import Navbar from '../../Components/NavBar/Navbar';
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
-}
+  return (
+    <div>
+      <Navbar/>
+    </div>
+  );
+};
 
-export default App
+export default App;
